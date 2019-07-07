@@ -1,5 +1,6 @@
 import math
 
+
 # to check whether the year is leap year or not.
 def is_leap_year(y):
     leap = False
@@ -13,14 +14,7 @@ def is_leap_year(y):
     return leap
 
 
-year = int(input())
-print(is_leap_year(year))
-
-
-
-
-#OR
-
+# OR
 def is_leap(year):
     leap = False
 
